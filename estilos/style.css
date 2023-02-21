@@ -49,21 +49,22 @@ section#login{
     border-radius: 20px;
 
     box-shadow: 0px 0px 10px #00000073;
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
     background: var(--cor03) url(../imagens/img005.jpg) no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: right bottom;
-
-    width: 250px; 
     height: 200px;
 }
 
 section#login > div#formulario{
     display: block;
     padding: 10px;
+    
 }
 
-teste
